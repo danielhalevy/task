@@ -1,0 +1,19 @@
+Entity-Relationship Diagram (ERD)
+Entities:
+
+Client
+
+ID (Primary Key)
+Contact Method Type
+Method Value
+
+Product
+
+Product ID (Primary Key)
+
+
+Relationships:
+
+Client - Has - Product
+ClientID (Foreign Key) - Primary Key of Client
+ProductID (Foreign Key) - Primary Key of Product
